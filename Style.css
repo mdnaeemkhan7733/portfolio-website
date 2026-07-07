@@ -6,8 +6,7 @@
 
 /*Common Styles*/
 
-.common-btn{
-
+.common-btn {
 background-color:#FD6E0A;
 padding: 10px 20px;
 border-radius: 15px;
@@ -15,7 +14,20 @@ font-weight: bold;
 font-size: 22px;
 color: white;
 border: none;
+cursor: pointer;
 }
+
+.outline-btn {
+ background-color:white;
+padding: 10px 20px;
+border-radius: 15px;
+font-weight: bold;
+font-size: 22px;
+color: #FD6E0A;
+border: 1px solid #FD6E0A;
+cursor: pointer;
+}
+
 .container{
     max-width: 1200px;
     margin: auto;
@@ -52,4 +64,19 @@ ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff8f3;
+}
+.hero-left-p-1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-left-button-parent{
+    margin-top: 12px;
+
 }
