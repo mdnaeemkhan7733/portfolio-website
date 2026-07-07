@@ -108,3 +108,16 @@ margin: 10px 0;
      padding: 5px;
      border-radius: 5px;
 }
+
+/* what i do session cs */
+
+.what-i-do-parent {
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap : 8px;
+}
