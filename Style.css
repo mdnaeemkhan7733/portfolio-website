@@ -3,6 +3,9 @@
     margin: 0;
      font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 120%;
+}
 
 /*Common Styles*/
 
@@ -60,6 +63,9 @@ ul li a {
 }
 
 /* Hero Section Style */
+.hero-parent-root{
+    background-color: #fff8f3;
+}
 .hero-parent{
     display: flex;
     justify-content: space-between;
