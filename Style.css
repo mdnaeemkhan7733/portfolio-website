@@ -16,12 +16,14 @@ font-size: 22px;
 color: white;
 border: none;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin:  auto;
     padding: 12px 0;
 }
 .logo{
@@ -43,4 +45,11 @@ ul{
 ul li a {
     text-decoration: none;
 
+}
+
+/* Hero Section Style */
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
